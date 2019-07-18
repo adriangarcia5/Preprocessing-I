@@ -213,15 +213,33 @@ body {
     display: block;
   }
 }
-.main-container .middle-content-one {
+.main-container .middle-content h2 {
+  font-weight: bold;
+}
+.main-container .middle-content .middle-content-one {
   width: 49%;
   padding: 25px;
 }
-.main-container .middle-content-two {
+.main-container .middle-content .middle-content-two {
   width: 49%;
   padding: 25px;
 }
-.main-container li {
+.main-container .middle-content li {
   border: 2px solid grey;
   padding: 10px;
+}
+.main-container table {
+  border: 2px solid lightgrey;
+  width: 95%;
+  margin: 0 auto;
+  text-align: left;
+}
+.main-container footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  padding: 15px 0;
+  border-radius: 10px;
+  background: grey;
+  color: white;
 }
