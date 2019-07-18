@@ -64,6 +64,13 @@ html, body {
 		display: flex;
 		justify-content: center;
 	}
+	.background-normal(){
+		background: rgb(224, 222, 222);
+	}
+
+	/*****Variables*****/
+	@normal-font: 'Roboto', sans-serif;
+	@normal-border: 2px solid lightgrey;
 
 
 
@@ -97,6 +104,7 @@ html, body {
 
 	p{
 		font-size: 1rem;
+		font-family: @normal-font;
 	}
 	.top-image{
 		@media (max-width: 500px) {
@@ -118,7 +126,7 @@ html, body {
 		}
 
 		display: flex;
-		background: rgb(235, 235, 235);
+		.background-normal();
 		padding: 25px;
 		height: 600px;
 		flex-direction: column;
@@ -139,7 +147,7 @@ html, body {
 		.top-info-two{
 			width: 100%;
 			padding-top: 20px;
-			border-top: 1px solid black;
+			border-top: @normal-border;
 		}
 	}
 	.middle-content{
@@ -161,16 +169,22 @@ html, body {
 			padding: 25px;
 		}
 		li {
-			border: 2px solid grey;
+			border: @normal-border;
 			padding: 10px;
 		}
 		
 	}
 	table{
-		border: 2px solid lightgrey;
+		border: @normal-border;
 		width: 95%;
 		margin: 0 auto;
 		text-align: left;
+	}
+	.line-one{
+		border-bottom: @normal-border;
+	}
+	.line-two{
+		.background-normal()
 	}
 
 

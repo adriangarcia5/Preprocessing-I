@@ -136,6 +136,7 @@ body {
 }
 .main-container {
   /*****MixIns*****/
+  /*****Variables*****/
   width: 90%;
   padding: 25px;
   line-height: 1.5;
@@ -165,6 +166,7 @@ body {
 }
 .main-container p {
   font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
 }
 @media (max-width: 500px) {
   .main-container .top-image {
@@ -180,7 +182,7 @@ body {
 }
 .main-container .top-content {
   display: flex;
-  background: #ebebeb;
+  background: #e0dede;
   padding: 25px;
   height: 600px;
   flex-direction: column;
@@ -203,7 +205,7 @@ body {
 .main-container .top-content .top-info-two {
   width: 100%;
   padding-top: 20px;
-  border-top: 1px solid black;
+  border-top: 2px solid lightgrey;
 }
 .main-container .middle-content {
   display: flex;
@@ -225,7 +227,7 @@ body {
   padding: 25px;
 }
 .main-container .middle-content li {
-  border: 2px solid grey;
+  border: 2px solid lightgrey;
   padding: 10px;
 }
 .main-container table {
@@ -233,6 +235,12 @@ body {
   width: 95%;
   margin: 0 auto;
   text-align: left;
+}
+.main-container .line-one {
+  border-bottom: 2px solid lightgrey;
+}
+.main-container .line-two {
+  background: #e0dede;
 }
 .main-container footer {
   display: flex;
