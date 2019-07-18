@@ -134,3 +134,88 @@ html,
 body {
   height: 100%;
 }
+.main-container {
+  /*****MixIns*****/
+  width: 90%;
+  padding: 25px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .main-container {
+    width: 100%;
+  }
+}
+.main-container header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 0;
+  border-radius: 10px;
+}
+.main-container header a {
+  padding: 25px;
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 500px) {
+  .main-container header a {
+    display: inline;
+    padding: 10px;
+  }
+}
+.main-container p {
+  font-size: 1rem;
+}
+@media (max-width: 500px) {
+  .main-container .top-image {
+    height: 175px;
+  }
+}
+.main-container h1 {
+  font-size: 2rem;
+}
+.main-container h2 {
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+.main-container .top-content {
+  display: flex;
+  background: #ebebeb;
+  padding: 25px;
+  height: 700px;
+  flex-direction: column;
+}
+@media (max-width: 500px) {
+  .main-container .top-content {
+    display: block;
+  }
+}
+.main-container .top-content .top-button {
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin: 15px 0;
+}
+.main-container .top-content .top-info-one {
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.main-container .top-content .top-info-two {
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid black;
+}
+.main-container .middle-content {
+  display: flex;
+}
+@media (max-width: 500px) {
+  .main-container .middle-content {
+    display: block;
+  }
+}
+.main-container .middle-content-one {
+  padding-right: 60px;
+}
+.main-container .middle-content-two {
+  padding-left: 60px;
+}
